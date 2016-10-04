@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://pocketsizemedia.visualstudio.com/DefaultCollection/PocketSizePropertyiOSNegotiatorApp/_git/iOSCore", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/pcarollo84/iOSCore.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -135,8 +135,6 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  #s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  #s.xcconfig = { "USER_HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/CocoaLumberjack" }
 
   s.dependency "CocoaLumberjack"
 
