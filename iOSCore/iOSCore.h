@@ -16,6 +16,8 @@ FOUNDATION_EXPORT const unsigned char iOSCoreVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <iOSCore/PublicHeader.h>
 
+#define LOG_LEVEL_DEF ddLogLevel
+
 #import <CocoaLumberjack/CocoaLumberjack.h>
 
 #ifdef DEBUG
